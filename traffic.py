@@ -3,7 +3,7 @@
 """
 Created on Sun Nov  4 06:34:46 2018
 
-@author: hubergilt
+@author: hubergilt@hotmail.com
 """
 
 from importlib.resources import Path
