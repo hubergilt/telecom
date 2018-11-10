@@ -68,13 +68,15 @@ with Path('rural/data','trafdep.xlsx') as path:
 df = DataFrame(data=traffic, dtype=float)
 df = df.set_index('Departamento')
 df = df.T
-df = DataFrame(df, columns=['PUNO', 'LIMA', 'AREQUIPA', 'HUANCAVELICA', 'LORETO', 'CAJAMARCA'])
-df = df.cumsum()
+#df = DataFrame(df, columns=['PUNO', 'LIMA', 'AREQUIPA', 'HUANCAVELICA', 'LORETO', 'CAJAMARCA'])
+#df = DataFrame(df, columns=['PUNO','LORETO','SAN MARTIN', 'JUNIN'])
+#df = df.cumsum()
 plt.figure()
 df.plot()
 xlabels_positions = np.arange(12)
 xlabels = df.PUNO.index
 plt.xticks(xlabels_positions, xlabels, rotation=45*2)
+plt.legend(loc='lower right', bbox_to_anchor=(1.38, 0))
 
 '''
 plt.legend(loc="upper left", 
