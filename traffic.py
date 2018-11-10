@@ -17,11 +17,12 @@ import numpy as np
 MAXFIL=31
 MAXCOL='Z'
 START='departamento'
-END='total'
+END1='total'
+END2='Tráfico'
 traffic={}
 
 
-with Path('rural/data','trafdep.xlsx') as path:
+with Path('rural/data','otraffic_prom.xlsx') as path:
      wb = openpyxl.load_workbook(str(path.as_posix()))
      ws = wb.active
      ncol = ord('A')
@@ -30,6 +31,7 @@ with Path('rural/data','trafdep.xlsx') as path:
      efil = 1
      skey = ''
      flag = False
+     sindex = ''
      
      while ncol < ord(MAXCOL)+1:
          nfil = 1
@@ -46,9 +48,11 @@ with Path('rural/data','trafdep.xlsx') as path:
                          traffic[svalue]=[]
                          skey=svalue
                          sfil = nfil
+                         sindex=svalue
+                         print('index: %s'%index)
                          continue
                          #print(index, svalue)
-                     if re.match(END, svalue, re.IGNORECASE):
+                     if re.match(END1, svalue, re.IGNORECASE) or re.match(END2, svalue, re.IGNORECASE):
                          flag = True
                          efil = nfil
                          #print(index, svalue)
@@ -66,7 +70,7 @@ with Path('rural/data','trafdep.xlsx') as path:
          ncol+=1
 
 df = DataFrame(data=traffic, dtype=float)
-df = df.set_index('Departamento')
+df = df.set_index(sindex)
 df = df.T
 #df = DataFrame(df, columns=['PUNO', 'LIMA', 'AREQUIPA', 'HUANCAVELICA', 'LORETO', 'CAJAMARCA'])
 #df = DataFrame(df, columns=['PUNO','LORETO','SAN MARTIN', 'JUNIN'])
@@ -77,10 +81,3 @@ xlabels_positions = np.arange(12)
 xlabels = df.PUNO.index
 plt.xticks(xlabels_positions, xlabels, rotation=45*2)
 plt.legend(loc='lower right', bbox_to_anchor=(1.38, 0))
-
-'''
-plt.legend(loc="upper left", 
-           bbox_to_anchor=(1, 0.5), # bbox_to_anchor=(posiCol, posiFila)
-		   ncol=1, shadow=True, fancybox=True, 
-           framealpha=0.5, frameon=True)
-'''
