@@ -26,7 +26,7 @@ class readtraffic(object):
         self.START='departamento'
         self.END1='total'
         self.END2='Tráfico'
-        
+    
     def load_data(self):
         ncol = ord('A')
         nfil = 1
