@@ -12,10 +12,14 @@ Para este analisis, se tomaron en cuenta los indicadores de servicio de comunica
 * 8.5_Trafico_anual_entrante_promedio_por_telefono_y_por_departamento.xlsx
 * 8.6_Trafico_anual_Saliente_promedio_por_telefono_y_por_departamento.xlsx
 
+## Tráfico rural anual entrante
 ![Trafico rural](itraffic.png "Tráfico rural anual entrante")
 
+## Tráfico rural anual saliente
 ![Trafico rural](otraffic.png "Tráfico rural anual saliente")
 
+## Tráfico rural promedio anual entrante
 ![Trafico rural](itraffic_prom.png "Tráfico rural promedio anual entrante")
 
+## Tráfico rural promedio anual saliente
 ![Trafico rural](otraffic_prom.png "Tráfico rural promedio anual saliente")
