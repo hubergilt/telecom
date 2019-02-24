@@ -26,6 +26,6 @@ Para este analisis, se tomaron en cuenta los indicadores de servicio de comunica
 
 De las gráficas vistas arriba sobre el tráfico rural, se puede apreciar una tendencia hacia la disminusión de la intensidad del tráfico telefónico rural, con excepción de algunos casos en los departamentos del oriente del Perú.
 
-La pregunta que nos intereza responder es explicar la razón de este decremento y en el proceso caracterizar del tráfico telefonico rural, en función de las variables, como la teledensidad móvil y PBI per capita, que fueron ampliamente estudiados por investigaciones sociales y economicas.
+La pregunta que nos intereza responder es explicar la razón de este decremento y en el proceso caracterizar del tráfico telefonico rural, en función de dos variables, como son la teledensidad móvil y PBI per capita ambas por departamento, que fueron ampliamente estudiados por otras investigaciones sociales y economicas.
 
 
