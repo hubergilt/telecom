@@ -13,19 +13,20 @@ Para este analisis, se tomaron en cuenta los indicadores de servicio de comunica
 * 8.6_Trafico_anual_Saliente_promedio_por_telefono_y_por_departamento.xlsx
 
 ## Tráfico rural anual entrante
-![Trafico rural](itraffic.png "Tráfico rural anual entrante")
+![Trafico rural](images/itraffic.png "Tráfico rural anual entrante")
 
 ## Tráfico rural anual saliente
-![Trafico rural](otraffic.png "Tráfico rural anual saliente")
+![Trafico rural](images/otraffic.png "Tráfico rural anual saliente")
 
 ## Tráfico rural promedio anual entrante
-![Trafico rural](itraffic_prom.png "Tráfico rural promedio anual entrante")
+![Trafico rural](images/itraffic_prom.png "Tráfico rural promedio anual entrante")
 
 ## Tráfico rural promedio anual saliente
-![Trafico rural](otraffic_prom.png "Tráfico rural promedio anual saliente")
+![Trafico rural](images/otraffic_prom.png "Tráfico rural promedio anual saliente")
 
 De las gráficas vistas arriba sobre el tráfico rural, se puede apreciar una tendencia hacia la disminusión de la intensidad del tráfico telefónico rural, con excepción de algunos casos en los departamentos del oriente del Perú.
 
 La pregunta que nos intereza responder es explicar la razón de este decremento y en el proceso caracterizar del tráfico telefonico rural, en función de dos variables, como son la teledensidad móvil y PBI per capita ambas por departamento, que fueron ampliamente estudiados por otras investigaciones sociales y economicas.
 
+Se explora el comportamiento del tráfico rural a tráves del tiempo y de mapas, que nos ayudan a entender la migración de tráfico ocurrida en los ultimos 10 años.
 
