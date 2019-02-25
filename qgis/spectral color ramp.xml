@@ -1,0 +1,13 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="1">
+  <symbols/>
+  <colorramps>
+    <colorramp type="gradient" favorite="1" name="Spectral">
+      <prop v="215,25,28,255" k="color1"/>
+      <prop v="43,131,186,255" k="color2"/>
+      <prop v="0" k="discrete"/>
+      <prop v="gradient" k="rampType"/>
+      <prop v="0.25;253,174,97,255:0.5;255,255,191,255:0.75;171,221,164,255" k="stops"/>
+    </colorramp>
+  </colorramps>
+</qgis_style>
