@@ -1,8 +1,8 @@
-# Graficando comportamiento del tráfico rural en PERU
+# Graficando comportamiento del tráfico rural en PERÚ
 
-Se toma los datos publicos del tráfico telefonico rural en el Perú y se grafica su comportamiento, en el periodo de 10 años, desde el 2006 hasta el 2016.
+Se toma los datos publicos del tráfico telefónico rural en el Perú y se grafica su comportamiento, en el periodo de 10 años, desde el 2006 hasta el 2016.
 
-La fuente de datos esta disponible, de forma publica y abierta en la siguiente:
+La fuente de datos esta disponible, de forma pública y abierta en la siguiente:
 * https://www.osiptel.gob.pe/documentos/8-indicadores-de-servicios-de-comunicaciones-rurales
 
 Para este analisis, se tomaron en cuenta los indicadores de servicio de comunicaciones rurales, tales como:
@@ -30,3 +30,8 @@ La pregunta que nos intereza responder es explicar la razón de este decremento 
 
 Se explora el comportamiento del tráfico rural a tráves del tiempo y de mapas, que nos ayudan a entender la migración de tráfico ocurrida en los ultimos 10 años.
 
+## Tendencia del tráfico telefónico rural entrante periodo 2006 hasta 2016
+![Trafico rural](images/trafico_rural_entrante_2006-2016.png "Tráfico rural entrante periodo 2006 hasta 2016")
+
+## Tendencia del tráfico telefónico rural saliente periodo 2006 hasta 2016
+![Trafico rural](images/trafico_rural_saliente_2006-2016.png "Tráfico rural saliente periodo 2006 hasta 2016")
