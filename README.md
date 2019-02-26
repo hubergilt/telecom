@@ -31,7 +31,7 @@ La pregunta que nos intereza responder es explicar la razón de este decremento 
 Se explora el comportamiento del tráfico rural a tráves del tiempo y de mapas, que nos ayudan a entender la migración de tráfico ocurrida en los ultimos 10 años.
 
 ## Tendencia del tráfico telefónico rural entrante periodo 2006 hasta 2016
-<img src="images/trafico_rural_entrante_2006-2016.png" width="200"/>
+<img src="images/trafico_rural_entrante_2006-2016.png" width="400"/>
 
 ## Tendencia del tráfico telefónico rural saliente periodo 2006 hasta 2016
 ![Trafico rural](images/trafico_rural_saliente_2006-2016.png "Tráfico rural saliente periodo 2006 hasta 2016")
