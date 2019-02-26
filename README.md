@@ -34,4 +34,4 @@ Se explora el comportamiento del tráfico rural a tráves del tiempo y de mapas,
 <img src="images/trafico_rural_entrante_2006-2016.png" width="400"/>
 
 ## Tendencia del tráfico telefónico rural saliente periodo 2006 hasta 2016
-![Trafico rural](images/trafico_rural_saliente_2006-2016.png "Tráfico rural saliente periodo 2006 hasta 2016")
+<img src="images/trafico_rural_saliente_2006-2016.png" width="400"/>
