@@ -37,3 +37,12 @@ Se explora el comportamiento del tráfico rural a tráves del tiempo y de mapas,
 ## Tendencia del tráfico telefónico rural saliente periodo 2006 hasta 2016
 <img src="images/trafico_rural_saliente_2006-2016.png" width="400"/>
 <img src="images/trafico_rural_saliente_2006_2016.png" width="800"/>
+
+## Cantidad de telefónos públicos rurales periodo 2006 hasta 2016
+![Cantidad de telefónos públicos](images/telefonos_publicos_rurales_2006_2016.png "Cantidad de telefónos públicos rurales periodo 2006 hasta 2016")
+
+## Númeoro de localidades beneficiadas con telefónos públicos periodo 2006 hasta 2016
+![Númeoro de localidades beneficiadas](images/localidades_telefonia_publica_2006_2016.png "Númeoro de localidades beneficiadas con telefónos públicos periodo 2006 hasta 2016")
+
+## Cantidad de cabinas con acceso a Internet
+![Cantidad de cabinas con acceso a Internet](images/cabinas_publicas_acceso_internet.png "Cantidad de cabinas con acceso a Internet 2016")
