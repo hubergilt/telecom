@@ -13,16 +13,16 @@ Para este analisis, se tomaron en cuenta los indicadores de servicio de comunica
 * 8.6_Trafico_anual_Saliente_promedio_por_telefono_y_por_departamento.xlsx
 
 ## Tráfico rural anual entrante
-![Trafico rural](images/itraffic.png "Tráfico rural anual entrante")
+![Trafico rural](images/rural_trafico_anual_entrante.png "Tráfico rural anual entrante")
 
 ## Tráfico rural anual saliente
-![Trafico rural](images/otraffic.png "Tráfico rural anual saliente")
+![Trafico rural](images/rural_trafico_anual_saliente.png "Tráfico rural anual saliente")
 
 ## Tráfico rural promedio anual entrante
-![Trafico rural](images/itraffic_prom.png "Tráfico rural promedio anual entrante")
+![Trafico rural](images/rural_trafico_anual_entrante_prom.png "Tráfico rural promedio anual entrante")
 
 ## Tráfico rural promedio anual saliente
-![Trafico rural](images/otraffic_prom.png "Tráfico rural promedio anual saliente")
+![Trafico rural](images/rural_trafico_anual_saliente_prom.png "Tráfico rural promedio anual saliente")
 
 De las gráficas vistas arriba sobre el tráfico rural, se puede apreciar una tendencia hacia la disminusión de la intensidad del tráfico telefónico rural, con excepción de algunos casos en los departamentos del oriente del Perú.
 
@@ -31,12 +31,12 @@ La pregunta que nos intereza responder es explicar la razón de este decremento 
 Se explora el comportamiento del tráfico rural a tráves del tiempo y de mapas, que nos ayudan a entender la migración de tráfico ocurrida en los ultimos 10 años.
 
 ## Tendencia del tráfico telefónico rural entrante periodo 2006 hasta 2016
-<img src="images/trafico_rural_entrante_2006-2016.png" width="400"/>
-<img src="images/trafico_rural_entrante_2006_2016.png" width="800"/>
+<img src="images/rural_trafico_entrante_2006-2016.png" width="400"/>
+<img src="images/rural_trafico_entrante_2006_2016.png" width="800"/>
 
 ## Tendencia del tráfico telefónico rural saliente periodo 2006 hasta 2016
-<img src="images/trafico_rural_saliente_2006-2016.png" width="400"/>
-<img src="images/trafico_rural_saliente_2006_2016.png" width="800"/>
+<img src="images/rural_trafico_saliente_2006-2016.png" width="400"/>
+<img src="images/rural_trafico_saliente_2006_2016.png" width="800"/>
 
 ## Cantidad de telefónos públicos rurales periodo 2006 hasta 2016
 ![Cantidad de telefónos públicos](images/telefonos_publicos_rurales_2006_2016.png "Cantidad de telefónos públicos rurales periodo 2006 hasta 2016")
