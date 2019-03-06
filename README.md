@@ -48,15 +48,27 @@ Se explora el comportamiento del tráfico rural a tráves del tiempo y de mapas,
 ![Cantidad de cabinas con acceso a Internet](images/rural_cabinas_publicas_acceso_internet.png "Cantidad de cabinas con acceso a Internet 2016")
 
 
+
+## Cantidad de lineas móviles en servicio periodo 2013 hasta 2018
+
 2.1 Líneas en servicio por departamento
 lineas 2003 a 2018, por departento..., 
 nos da una tendencia referencial... 
 
+![Cantidad de lineas móviles en servicio](images/movil_lineas_servicio_2003_2018.png "Cantidad de lineas móviles en servicio periodo 2013 hasta 2018")
+
+## Teledensidad móvil en periodo 2003 hasta 2012
+
 2.2 Densidad por departamento uhm...
 Teleldensidad nacional 2003 a 2012
 
+![Teledensidad móvil](images/movil_teledensidad_2003_2012.png "Teledensidad móvil en periodo 2003 hasta 2012")
+
+## Estructura de uso para telefonía móvil en periodo 2003 hasta 2012
+
 2.3 Estructura de uso por departamento
 Infraestructua en uso desde 2013 al 2019
+![Estructura de uso para telefonía móvil](images/movil_estructura_en_uso_2013_2018.png "Estructura de uso para telefonía móvil en periodo 2003 hasta 2012")
 
 2.4 Líneas en servicio por empresa
 Teledensidad Nacional, no departamento
@@ -74,10 +86,24 @@ logra explicar la disminucion del trafico telefonico rural.
 
 El resto no es releventante en el analisis.
 
+## Tráfico entrante por operador Servicios Móviles en periodo 2004 hasta 2018
+
 2.9 Tráfico entrante por operador
+
+![Tráfico entrante por operador Servicios Móviles](images/movil_trafico_entrante_2004_2018.png "Tráfico entrante por operador Servicios Móviles en periodo 2004 hasta 2018")
+
+
+## Tráfico Originado por operador Servicios Móviles en periodo 2004 hasta 2018
+
 2.10 Tráfico Originado por Operador
 
+![Tráfico Originado por operador Servicios Móviles](images/movil_trafico_originado_2004_2018.png "Tráfico Originado por operador Servicios Móviles en periodo 2004 hasta 2018")
+
+## Número de Mensajes Originados en Terminales de Servicios Móviles en periodo 2004 hasta 2018
+
 2.15 Número de Mensajes Originados en Terminales de Servicios Móviles
+
+![Número de Mensajes Originados en Terminales de Servicios Móviles](images/movil_mensajes_originados_2004_2018.png "Número de Mensajes Originados en Terminales de Servicios Móviles en periodo 2004 hasta 2018")
 
 
 El principal problema de obtener mediciones de trafico telefonico por departamento, es que a partir del 2013, con el cambio de la politica 
