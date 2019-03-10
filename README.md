@@ -47,7 +47,21 @@ Se explora el comportamiento del tráfico rural a tráves del tiempo y de mapas,
 ## Cantidad de cabinas con acceso a Internet
 ![Cantidad de cabinas con acceso a Internet](images/rural_cabinas_publicas_acceso_internet.png "Cantidad de cabinas con acceso a Internet 2016")
 
+# Analicemos la influencia del tráfico móvil sobre el tráfico telefónico rural
 
+Tomando las estadisticas del tráfico móvil analizamos la influencia que tiene esta sobre el tráfico rural.
+Los datos se extrajeron de los indices de OSIPTEL, de la siguiente dirección:
+
+* https://www.osiptel.gob.pe/documentos/2-indicadores-del-servicio-movil
+
+Las variables que se consideraron para este análisis son:
+
+* 2.1 Líneas en servicio por departamento
+* 2.2 Densidad por departamento
+* 2.3 Estructura de uso por departamento
+* 2.9 Tráfico entrante por operador
+* 2.10 Tráfico Originado por Operador
+* 2.15 Número de Mensajes Originados en Terminales de Servicios Móviles
 
 ## Cantidad de lineas móviles en servicio periodo 2013 hasta 2018
 
