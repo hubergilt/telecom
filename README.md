@@ -130,3 +130,11 @@ y
 
 
 Para el analisis de trafico telefonico rural, analizando el decremento en los años y como esto es afectado por el trafico movil en las zonas rurales, tenemos en cuenta que al una distribucion de trafico por departamento, vamos a iniciar el analisis de trafico de forma general es decir para todo el peru, durante el periodo de varios años.
+
+## Datos del producto bruto interno del peru
+
+Estos datos se extrajeron de la base de datos del banco mundial que se puede entrontrar en:
+
+* http://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=excel
+
+![producto bruto interno del peru](images/wb-pbi-peru-1960-2017.png "Producto interno del Perú en periodo 2004 hasta 2018")
