@@ -135,14 +135,20 @@ Para el analisis de trafico telefonico rural, analizando el decremento en los a�
 
 Estos datos se extrajeron de la base de datos del banco mundial que se puede entrontrar en:
 
-* El producto bruto interno PBI, en la dirección:
+* El producto bruto interno PBI en dolares, en la dirección:
 
 http://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=excel
 
-![producto bruto interno del peru](images/wb-pbi-peru-1960-2017.png "Producto interno del Perú en periodo 1960 hasta 2017")
+![producto bruto interno del peru en dolares](images/wb-pbi-peru-1960-2017.png "Producto interno del Perú en periodo 1960 hasta 2017")
 
 * La población rural en el perú, en la dirección:
 
 https://datos.bancomundial.org/indicador/SP.RUR.TOTL?locations=PE
 
 ![población rural en el perú](images/wb-pobla-rural-peru-1960-2017.png "Población rural en el perú del Perú en periodo 1960 hasta 2017")
+
+* El producto bruto interno PBI per capita en soles, en la dirección:
+
+http://api.worldbank.org/v2/es/indicator/SH.XPD.GHED.GD.ZS?downloadformat=excel
+
+![producto bruto interno del peru en soles](images/wb-pbi-per-capita-peru-1960-2017.png "Producto interno del Perú en periodo 1960 hasta 2017")
