@@ -131,7 +131,7 @@ y
 
 Para el analisis de trafico telefonico rural, analizando el decremento en los años y como esto es afectado por el trafico movil en las zonas rurales, tenemos en cuenta que al una distribucion de trafico por departamento, vamos a iniciar el analisis de trafico de forma general es decir para todo el peru, durante el periodo de varios años.
 
-## Datos del producto bruto interno del peru
+## Datos del banco mundial del Perú
 
 Estos datos se extrajeron de la base de datos del banco mundial que se puede entrontrar en:
 
@@ -152,3 +152,11 @@ https://datos.bancomundial.org/indicador/SP.RUR.TOTL?locations=PE
 http://api.worldbank.org/v2/es/indicator/SH.XPD.GHED.GD.ZS?downloadformat=excel
 
 ![producto bruto interno del peru en soles](images/wb-pbi-per-capita-peru-1960-2017.png "Producto interno del Perú en periodo 1960 hasta 2017")
+
+## Modelando tráfico rural del Perú
+
+* Tráfico telefónico rural saliente vs tráfico telefónico entrante
+![Tráfico telefónico rural saliente vs tráfico telefónico entrante](images/traffic_rural_in_vs_out.png "Tráfico telefónico rural saliente vs tráfico telefónico entrante")
+
+* Tráfico telefónico rural saliente vs tráfico telefónico entrante
+![Regresión linear multivariable del telefónico rural entrante y tráfico telefónico saliente](images/traffic_rural_model.png "Regresión linear multivariable del telefónico rural entrante y tráfico telefónico saliente")
