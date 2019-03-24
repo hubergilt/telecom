@@ -16,9 +16,9 @@ hold on;
 scatter(x,y,'bo','LineWidth',1.5);
 plot(x,yCalc1);
 
-xlabel('Tráfico Telefónico rural entrante (min)');
-ylabel('Tráfico Telefónico rural saliente (min)');
-title('  Tráfico Telefónico rural saliente vs. entrante');
+xlabel('Tráfico Telefónico Rural Entrante (min)');
+ylabel('Tráfico Telefónico Rural Saliente (min)');
+title('   Tráfico Telefónico Rural Saliente vs. Entrante');
 
 X = [ones(length(x),1) x]; b = X\y;
 yCalc2 = X*b; 
@@ -29,69 +29,98 @@ Rsq1 = 1 - sum((y - yCalc1).^2)/sum((y - mean(y)).^2);
 Rsq2 = 1 - sum((y - yCalc2).^2)/sum((y - mean(y)).^2);
 %legend('Datos', strcat('Regres. s/intercep. Rsq1=',num2str(Rsq1,3)),strcat('Regres. c/intercep. Rsq2=',num2str(Rsq2,3)),'Location','best');
 legend('Datos', strcat('y=',num2str(b1,'%.2f'),'x, Rsq1=',num2str(Rsq1,3)),strcat('y=',num2str(b(1),'%.2f'),'+',num2str(b(2),'%.2f'),'x, Rsq2=',num2str(Rsq2,3)),'Location','best');
-    
-data1=data(:,{'Year', 'Rural_phones', 'Locations', 'Mobile_phones',...
-                'Mobile_traffic_in','Mobile_traffic_out','MMS','SMS',...
-                'Rural_population','PBI','PBI_per_capita'});
-            
-data2=data(:,{'Rural_phones', 'Locations', 'Mobile_phones',...
-                'Mobile_traffic_in','Mobile_traffic_out','MMS','SMS',...
-                'Rural_population','PBI_per_capita'});
 
-data3=data(:,{'Rural_phones', 'Locations', 'Mobile_phones',...
-                'Mobile_traffic_in','Mobile_traffic_out','MMS','SMS',...
-                'Rural_population','PBI_per_capita'});
+%datos de trafico entrada            
+data1e = data;
+data1e.Rural_traffic_out=[];
 
-data4=data(:,{'Rural_phones', 'Locations', 'Mobile_phones',...
-                'Mobile_traffic_in','Mobile_traffic_out','MMS','SMS',...
-                'PBI_per_capita'});            
-            
-data5=data(:,{'Rural_phones', 'Locations', 'Mobile_phones',...
-                'Mobile_traffic_in','Mobile_traffic_out','SMS',...
-                'PBI_per_capita'}); 
+data2e = data1e;
+data2e.Year=[];
+data2e.MMS =[];
+data2e.SMS =[];
+data2e.PBI =[];
 
-data6=data(:,{'Rural_phones', 'Locations', 'Mobile_phones',...
-                'Mobile_traffic_in','Mobile_traffic_out',...
-                'PBI_per_capita'})            
-            
+data3e = data2e;
+data3e.Locations=[];
+
+%datos de trafico saliente
+data1s = data;
+data1s.Rural_traffic_in=[];
+
+data2s = data1s;
+data2s.Year=[];
+data2s.MMS =[];
+data2s.SMS =[];
+data2s.PBI =[];
+
+data3s = data2s;
+data3s.Rural_phones     =[];
+data3s.Mobile_phones    =[];
+data3s.Mobile_traffic_in=[];
+
 %modelo para el trafico entrante
 disp('')
 disp('-->Modelo para el trafico entrada');
 disp('')
-mdl11=stepwiselm(data1.Variables, data.Rural_traffic_in);
-mdl21=stepwiselm(data2.Variables, data.Rural_traffic_in);
-mdl31=stepwiselm(data3.Variables, data.Rural_traffic_in);
-mdl41=stepwiselm(data4.Variables, data.Rural_traffic_in);
-mdl51=stepwiselm(data5.Variables, data.Rural_traffic_in);
-mdl61=stepwiselm(data6.Variables, data.Rural_traffic_in)
+mdl1e=stepwiselm(data1e, 'linear');
+mdl2e=stepwiselm(data2e, 'linear');
+mdl3e=stepwiselm(data3e, 'linear');
 
 %modelo para el trafico salida
 disp('')
 disp('<--modelo para el trafico salida');
 disp('')
-mdl12=stepwiselm(data1.Variables, data.Rural_traffic_out);
-mdl22=stepwiselm(data2.Variables, data.Rural_traffic_out);
-mdl32=stepwiselm(data3.Variables, data.Rural_traffic_out);
-mdl42=stepwiselm(data4.Variables, data.Rural_traffic_out);
-mdl52=stepwiselm(data5.Variables, data.Rural_traffic_out);
-mdl62=stepwiselm(data6.Variables, data.Rural_traffic_out)
+mdl1s=stepwiselm(data1s, 'linear');
+mdl2s=stepwiselm(data2s, 'linear');
+mdl3s=stepwiselm(data3s, 'linear');
 
+%figura fwl
 figure()
 subplot(2,1,1)
-mdl61.plot()
-xlabel('Ajuste del Modelo Completo');
-ylabel('Tráfico entrante (min)');
-title('  Modelo de Tráfico Telefónico rural entrante');
+hold on
+mdl2e.plot()
+xlabel('Var. añadida para vizualizar ajuste del modelo');
+ylabel('Tráfico Entrante (min)');
+title('  Modelo de Tráfico Telefónico Rural Entrante');
 
 subplot(2,1,2)
-mdl62.plot()
-xlabel('Ajuste del Modelo Completo');
+mdl3s.plot()
+xlabel('Var. añadida para vizualizar ajuste del modelo');
 ylabel('Tráfico saliente (min)');
-title('  Modelo de Tráfico Telefónico rural saliente');
+title('  Modelo de Tráfico Telefónico Rural Saliente');
 
+%figura de error trafico entrada
+figure()
+subplot(2,1,1)
+plot(data.Year,mdl2e.Variables.Rural_traffic_in,'-bo')
+hold on;
+plot(data.Year,mdl2e.Fitted,'--rx')
+plot(data.Year,[mdl2e.Variables.Rural_traffic_in-mdl2e.Fitted],'-g.');
+xlabel('Tiempo en Años');
+ylabel('Tráfico Entrante (min)');
+title('  Modelo de Tráfico Telefónico Rural Entrante');
+legend('Datos Observados', 'Datos Calculados','Error del Modelo','Location','best');
 
+subplot(2,1,2)
+plot(data.Year,[mdl2e.Variables.Rural_traffic_in-mdl2e.Fitted],'-g.');
+xlabel('Tiempo en Años');
+ylabel('Error del Modelo (min)');
+title('  Error del Modelo de Tráfico Telefónico RE');
 
+%figura de error trafico salida
+figure()
+subplot(2,1,1)
+plot(data.Year,mdl3s.Variables.Rural_traffic_out,'-bo')
+hold on;
+plot(data.Year,mdl3s.Fitted,'--rx')
+plot(data.Year,[mdl3s.Variables.Rural_traffic_out-mdl3s.Fitted],'-g.');
+xlabel('Tiempo en Años');
+ylabel('Tráfico Saliente (min)');
+title('  Modelo de Tráfico Telefónico Rural Saliente');
+legend('Datos Observados', 'Datos Calculados','Error del Modelo','Location','best');
 
-
-
-
+subplot(2,1,2)
+plot(data.Year,[mdl3s.Variables.Rural_traffic_out-mdl3s.Fitted],'-g.');
+xlabel('Tiempo en Años');
+ylabel('Error del Modelo (min)');
+title('  Error del Modelo de Tráfico Telefónico RS');
