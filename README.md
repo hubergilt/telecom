@@ -156,7 +156,13 @@ http://api.worldbank.org/v2/es/indicator/SH.XPD.GHED.GD.ZS?downloadformat=excel
 ## Modelando tráfico rural del Perú
 
 * Tráfico telefónico rural saliente vs tráfico telefónico entrante
-![Tráfico telefónico rural saliente vs tráfico telefónico entrante](images/traffic_rural_in_vs_out.png "Tráfico telefónico rural saliente vs tráfico telefónico entrante")
+![Tráfico telefónico rural saliente vs tráfico telefónico entrante](images/model_traffic_rural_in_vs_out.png "Tráfico telefónico rural saliente vs tráfico telefónico entrante")
 
 * Tráfico telefónico rural saliente vs tráfico telefónico entrante
-![Regresión linear multivariable del telefónico rural entrante y tráfico telefónico saliente](images/traffic_rural_model.png "Regresión linear multivariable del telefónico rural entrante y tráfico telefónico saliente")
+![Regresión linear multivariable del telefónico rural entrante y tráfico telefónico saliente](images/model_traffic_rural_ajuste.png "Regresión linear multivariable del telefónico rural entrante y tráfico telefónico saliente")
+
+* Tráfico telefónico rural entrante y error del modelo
+![Tráfico telefónico rural entrante y error del modelo](images/model_traffic_rural_in_err.png "Tráfico telefónico rural entrante y error del modelo")
+
+* Tráfico telefónico rural saliente y error del modelo
+![Tráfico telefónico rural saliente y error del modelo](images/model_traffic_rural_out_err.png "Tráfico telefónico rural saliente y error del modelo")
