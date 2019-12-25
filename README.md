@@ -131,7 +131,7 @@ y
 
 Para el analisis de trafico telefonico rural, analizando el decremento en los años y como esto es afectado por el trafico movil en las zonas rurales, tenemos en cuenta que al una distribucion de trafico por departamento, vamos a iniciar el analisis de trafico de forma general es decir para todo el peru, durante el periodo de varios años.
 
-## Datos del banco mundial del Perú
+<!-- ## Datos del banco mundial del Perú
 
 Estos datos se extrajeron de la base de datos del banco mundial que se puede entrontrar en:
 
@@ -166,3 +166,4 @@ http://api.worldbank.org/v2/es/indicator/SH.XPD.GHED.GD.ZS?downloadformat=excel
 
 * Tráfico telefónico rural saliente y error del modelo
 ![Tráfico telefónico rural saliente y error del modelo](images/model_traffic_rural_out_err.png "Tráfico telefónico rural saliente y error del modelo")
+ -->
