@@ -152,7 +152,7 @@ https://datos.bancomundial.org/indicador/SP.RUR.TOTL?locations=PE
 http://api.worldbank.org/v2/es/indicator/SH.XPD.GHED.GD.ZS?downloadformat=excel
 
 ![producto bruto interno del peru en soles](images/wb-pbi-per-capita-peru-1960-2017.png "Producto interno del Perú en periodo 1960 hasta 2017")
-
+ -->
 ## Modelando tráfico rural del Perú
 
 * Tráfico telefónico rural saliente vs tráfico telefónico entrante
@@ -161,7 +161,7 @@ http://api.worldbank.org/v2/es/indicator/SH.XPD.GHED.GD.ZS?downloadformat=excel
 * Tráfico telefónico rural saliente vs tráfico telefónico entrante
 ![Regresión linear multivariable del telefónico rural entrante y tráfico telefónico saliente](images/model_traffic_rural_ajuste.png "Regresión linear multivariable del telefónico rural entrante y tráfico telefónico saliente")
 
-* Tráfico telefónico rural entrante y error del modelo
+<!-- * Tráfico telefónico rural entrante y error del modelo
 ![Tráfico telefónico rural entrante y error del modelo](images/model_traffic_rural_in_err.png "Tráfico telefónico rural entrante y error del modelo")
 
 * Tráfico telefónico rural saliente y error del modelo
